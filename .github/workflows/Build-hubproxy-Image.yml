@@ -7,6 +7,7 @@ on:
       - 'Dockerfile'
       - 'index.js'
       - 'package.json'
+      - 'config.toml'
   pull_request:
     branches: [ hubproxy ]
   workflow_dispatch:
