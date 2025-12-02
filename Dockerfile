@@ -2,7 +2,7 @@ FROM node:20-alpine3.20
 
 WORKDIR /tmp
 
-COPY index.js  package.json config.toml ./
+COPY index.js  package.json ./
 
 EXPOSE 7860
 
