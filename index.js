@@ -10,6 +10,7 @@ const HUB_TAR = path.join(TMP, 'hub.tar.gz');
 
 // 端口定义 (直接使用主端口)
 const PORT = parseInt(process.env.SERVER_PORT || process.env.PORT || 7860); 
+const SERVER_PORT = 7860;
 
 // Argo 配置 (可选)
 const ENABLE_ARGO = 0; // 默认开启 Argo
