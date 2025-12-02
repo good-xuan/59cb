@@ -3,10 +3,6 @@ name: Build kuma Image
 on:
   push:
     branches: [ kuma ]
-    paths:
-      - 'Dockerfile'
-      - 'index.js'
-      - 'package.json'
   pull_request:
     branches: [ kuma ]
   workflow_dispatch:
