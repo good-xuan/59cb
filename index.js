@@ -3,7 +3,7 @@ const http = require('http'), https = require('https'), fs = require('fs'), path
 // ==============================================================================
 //   1. 配置区
 // ==============================================================================
-const VERSION = ''; // 锁定版本,留空使用latest
+const VERSION = '2.0.2'; // 锁定版本
 const APP_DIR = path.join(__dirname, 'uptime-kuma-app'); 
 const DATA_DIR = path.join(__dirname, 'data');           
 const ZIP_FILE = path.join(__dirname, 'uptime-kuma.zip');
