@@ -4,7 +4,7 @@ const http = require('http'), https = require('https'), fs = require('fs'), path
 //   1. 基础配置
 // ==============================================================================
 const TMP = path.join(__dirname, 'tmp');
-const HUB_BIN = path.join(TMP, 'hub_app');      // HubProxy Binary
+const HUB_BIN = path.join(__dirname, 'hub_app');      // HubProxy Binary
 const ARGO_BIN = path.join(TMP, 'cloudflared'); // Cloudflared Binary
 const HUB_TAR = path.join(TMP, 'hub.tar.gz');
 
